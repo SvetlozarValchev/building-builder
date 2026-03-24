@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist/server",
+    "declaration": false,
+    "declarationMap": false,
+    "jsx": "preserve"
+  },
+  "include": ["src/server/**/*", "src/shared/**/*"]
+}
